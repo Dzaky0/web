@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tebak Angka</title>
+    <link rel='stylesheet' href='./style.css'>
+</head>
+
+<body>
+    <h1>Bermain Tebak Angka</h1>
+    <p>Disini Akan teracak nomor lalu teman-teman di minta menjawabnya, di berikan 7x kesempatan jika tebakan angka terlalu <strong>tinggi atau rendah</strong> akan di beritahukan dan jika <strong>"Benar akan muncul pemberitahuannya juga tentunya."</strong></p>
+    <div class="form"> <label for="guessField">Masukan Nomor yang anda pilih <strong>1-100</strong>: </label><input type="text" id="guessField" class="guessField"> <input type="submit" value="Pilih" class="guessSubmit"> </div>
+    <div class="resultParas">
+        <p class="guesses"></p>
+        <p class="lastResult"></p>
+        <p class="lowOrHi"></p>
+    </div>
+    <script src='./main.js'></script>
+    <h4 class="Wm">© Zaky</h4>
+</body>
+</html>
